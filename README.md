@@ -1,7 +1,7 @@
 |                      |                |                                                                                                |
 | -------------------- | -------------- | ---------------------------------------------------------------------------------------------- |
 | :placard:            | **Summary**    | A plugin for selectively merging data between performers in Stash.                             |
-| :link:               | **Repository** | https://github.com/Valkyr-JS/StashMergers                                                      |
+| :link:               | **Repository** | https://github.com/Valkyr-JS/stash-mergers                                                      |
 | :information_source: | **Source URL** | https://valkyr-js.github.io/stash-plugins/index.yml                                            |
 | :open_book:          | **Install**    | [How to install plugins via package manager](https://docs.stashapp.cc/plugins/#adding-sources) |
 
@@ -35,7 +35,7 @@
 
 **FIRST BACKUP YOUR DATABASE!**
 
-Always back up your database before starting a merge. I have tested this plugin thoroughly on my own setup and fixed the bugs I have found, but as everyone's setup is a little different there may be problems I haven't discovered yet. Please run a backup before starting, and [report any issues on the repository](https://github.com/Valkyr-JS/StashMergers/issues). I take no responsibility for any loss of data. You have been warned.
+Always back up your database before starting a merge. I have tested this plugin thoroughly on my own setup and fixed the bugs I have found, but as everyone's setup is a little different there may be problems I haven't discovered yet. Please run a backup before starting, and [report any issues on the repository](https://github.com/Valkyr-JS/stash-mergers/issues). I take no responsibility for any loss of data. You have been warned.
 
 ---
 

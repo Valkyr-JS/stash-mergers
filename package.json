@@ -1,7 +1,7 @@
 {
-  "name": "stashmergers",
+  "name": "stash-mergers",
   "version": "1.1.0",
-  "description": "A plugin for selectively merging data between performers in Stash.",
+  "description": "A plugin for selectively merging objects in Stash.",
   "main": "./src/main.ts",
   "scripts": {
     "build": "rollup --config ./rollup.config.prod.mjs && node generateYaml.mjs",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Valkyr-JS/StashMergers.git"
+    "url": "git+https://github.com/Valkyr-JS/stash-mergers.git"
   },
   "author": "Valkyr-JS",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Valkyr-JS/StashMergers/issues"
+    "url": "https://github.com/Valkyr-JS/stash-mergers/issues"
   },
-  "homepage": "https://github.com/Valkyr-JS/StashMergers#readme",
+  "homepage": "https://github.com/Valkyr-JS/stash-mergers#readme",
   "peerDependencies": {
     "@apollo/client": "^3.13.4",
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
