@@ -1,6 +1,6 @@
 import React from "react";
 import MergeDropdownButton from "./components/MergeDropdownButton";
-import MergeModal from "./components/MergeModal";
+import PerformerMergeModal from "./components/PerformerMergeModal";
 import SearchModal from "./components/SearchModal";
 import { mergeButtonRootID } from "./constants";
 import { fetchData, fetchPerformerData } from "./helpers";
@@ -121,7 +121,7 @@ PluginApi.patch.instead("PerformerDetailsPanel", function (props, _, Original) {
         show={showSearchModal}
         thisPerformer={thisPerformer}
       />
-      <MergeModal
+      <PerformerMergeModal
         destinationPerformer={destinationPerformer}
         mergeDirection={mergeDirection}
         setShow={setShowMergeModal}

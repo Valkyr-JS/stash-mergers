@@ -37,7 +37,7 @@ import CustomFieldsRow from "./form/CustomFieldsRow";
 const { PluginApi } = window;
 const { Icon } = PluginApi.components;
 
-const MergeModal: React.FC<MergeModalProps> = ({
+const PerformerMergeModal: React.FC<PerformerMergeModalProps> = ({
   destinationPerformer,
   sourcePerformer,
   ...props
@@ -1249,9 +1249,9 @@ const MergeModal: React.FC<MergeModalProps> = ({
   );
 };
 
-export default MergeModal;
+export default PerformerMergeModal;
 
-interface MergeModalProps {
+interface PerformerMergeModalProps {
   /** Current data for the destination performer */
   destinationPerformer?: Performer;
 
