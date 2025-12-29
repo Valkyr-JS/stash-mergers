@@ -114,12 +114,13 @@ PluginApi.patch.instead("PerformerDetailsPanel", function (props, _, Original) {
       <Original {...props} />
       <SearchModal
         mergeDirection={mergeDirection}
-        selectedPerformer={selectedPerformer}
-        setSelectedPerformer={setSelectedPerformer}
+        selected={selectedPerformer}
+        setSelected={setSelectedPerformer}
         setShow={setShowSearchModal}
         setShowMergeModal={setShowMergeModal}
         show={showSearchModal}
-        thisPerformer={thisPerformer}
+        thisObject={thisPerformer}
+        type="performer"
       />
       <PerformerMergeModal
         destinationPerformer={destinationPerformer}
