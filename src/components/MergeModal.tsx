@@ -233,7 +233,7 @@ const MergeModal: React.FC<MergeModalProps> = ({
 
   // Create an array of all options.
   const countryOptions = [""].concat(
-    getCountries(intl.locale).map((c) => c.label)
+    getCountries(intl.locale).map((c) => c.label + "")
   );
 
   /** Handler for converting the dropdown country name to a country ISO */
